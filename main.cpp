@@ -2,19 +2,16 @@
 
 using namespace std;
 
-int num, sum = 0;
-
-
 int main()
 {
+    int num, sum = 0;
     cout << "Enter User Input Number : ";
     cin >> num;
-
     for(int i = 1; i <= num; i++)
     {
         sum += i;
     }
-    cout << "Sum of all Numbers that user input : " << sum;
+    cout << "Sum of first "<<num<<"numbers is ": " << sum;
 
     return 0;
 }
